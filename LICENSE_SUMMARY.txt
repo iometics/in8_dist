@@ -73,8 +73,8 @@ Contact us for:
 • Source code licenses
 • Redistribution rights
 
-Email: [your email]
-Website: [your website]
+Email: support@ioMetics.com
+Website: ioMetics.com
 
 --------------------------------------------------------------------------------
 QUICK DECISION TREE:
@@ -101,12 +101,11 @@ A: Contact us immediately - we're reasonable people
 
 --------------------------------------------------------------------------------
 
-By using the in8 Framework, you agree to the full license terms in 
-in8_FRAMEWORK_LICENSE.txt
+By using the in8 Framework, you agree to the full license terms in LICENSE
 
 Thank you for using in8!
 
-Copyright (c) 2026 [Your Name/Organization]
+Copyright (c) 2026 ioMetics LC
 All Rights Reserved.
 
 ================================================================================
