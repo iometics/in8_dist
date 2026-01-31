@@ -1,0 +1,7 @@
+.DS_Store
+tvos-arm64
+tvos-arm64_x86_64-simulator
+watchos-arm64_32_armv7k
+watchos-arm64_i386_x86_64-simulator
+xros-arm64
+xros-arm64-simulator
