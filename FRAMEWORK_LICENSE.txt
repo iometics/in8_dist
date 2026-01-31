@@ -1,0 +1,186 @@
+# in8 Framework End User License Agreement (EULA)
+
+**Version 1.0 - Effective Date: January 31 2026**
+
+## IMPORTANT - READ CAREFULLY
+
+This End User License Agreement ("Agreement") is a legal agreement between you (either an individual or a single entity) and ioMetics LC ("Licensor") for the in8 framework software, which includes the in8.xcframework binary library and associated materials (collectively, the "Framework").
+
+By using, copying, or distributing the Framework, you agree to be bound by the terms of this Agreement.
+
+---
+
+## 1. GRANT OF LICENSE
+
+Subject to the terms of this Agreement, Licensor grants you a non-exclusive, non-transferable license to:
+
+### 1.1 Development Rights
+- Use the Framework to develop applications ("Your Applications")
+- Link Your Applications against the Framework
+- Test and debug Your Applications using the Framework
+
+### 1.2 Distribution Rights
+- Distribute Your Applications that include the Framework in compiled/binary form
+- Distribute Your Applications commercially or non-commercially
+
+---
+
+## 2. RESTRICTIONS
+
+You may NOT:
+
+### 2.1 No Redistribution of Framework
+- Redistribute, sublicense, or transfer the Framework as a standalone library
+- Make the Framework available for download separately from Your Applications
+- Include the Framework in SDK bundles, libraries, or middleware for others to use
+- Share the Framework binaries via public repositories, CDNs, or file-sharing services
+
+### 2.2 No Reverse Engineering
+- Reverse engineer, decompile, or disassemble the Framework (except as permitted by law)
+- Attempt to derive the source code of the Framework
+- Remove or alter any proprietary notices in the Framework
+
+### 2.3 No Competitive Use
+- Use the Framework to create a competing game engine or framework
+- Extract components of the Framework for use in other frameworks or engines
+
+---
+
+## 3. DISTRIBUTION OF YOUR APPLICATIONS
+
+### 3.1 Permitted Distribution
+You may distribute Your Applications that contain the Framework provided that:
+- The Framework is bundled within Your Application and not separately accessible
+- Your Application adds substantial functionality beyond the Framework itself
+- You do not expose the Framework as an API or library for third parties
+
+### 3.2 Runtime Distribution
+The Framework may be distributed as part of Your Application's runtime, but only when:
+- It is embedded within Your Application bundle
+- End users cannot extract or use the Framework separately
+- Your Application's functionality depends on the Framework
+
+---
+
+## 4. OBTAINING THE FRAMEWORK
+
+### 4.1 Authorized Distribution
+The Framework is available only through authorized channels:
+- Direct contact with Licensor at [your contact information]
+- Authorized distribution partners (if any)
+- Official download locations designated by Licensor
+
+### 4.2 Unauthorized Sources
+You may not obtain the Framework from:
+- Unofficial repositories or file-sharing sites
+- Third-party redistributions
+- Any source not explicitly authorized by Licensor
+
+---
+
+## 5. OWNERSHIP AND INTELLECTUAL PROPERTY
+
+### 5.1 Ownership
+The Framework is licensed, not sold. Licensor retains all right, title, and interest in and to the Framework, including all intellectual property rights.
+
+### 5.2 Your Applications
+You retain all rights to Your Applications, subject to Licensor's rights in the Framework.
+
+---
+
+## 6. WARRANTY DISCLAIMER
+
+THE FRAMEWORK IS PROVIDED "AS IS" WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NON-INFRINGEMENT.
+
+---
+
+## 7. LIMITATION OF LIABILITY
+
+IN NO EVENT SHALL LICENSOR BE LIABLE FOR ANY SPECIAL, INCIDENTAL, INDIRECT, OR CONSEQUENTIAL DAMAGES WHATSOEVER ARISING OUT OF THE USE OF OR INABILITY TO USE THE FRAMEWORK.
+
+---
+
+## 8. TERMINATION
+
+This license is effective until terminated. Your rights under this license will terminate automatically without notice if you fail to comply with any term of this Agreement.
+
+---
+
+## 9. CONTACT INFORMATION
+
+For questions about this license or to request redistribution rights:
+- Email:
+- Website:
+
+---
+
+## EXAMPLES OF PERMITTED AND PROHIBITED USES
+
+### ✅ PERMITTED USES
+
+**Example 1: Game Distribution**
+- You create a game using the in8 framework
+- You bundle the in8.xcframework within your game's app bundle
+- You distribute your game on the App Store, Steam, or other platforms
+- ✅ This is allowed
+
+**Example 2: Commercial Application**
+- You build a commercial application using in8
+- The in8 framework is embedded in your .app or .ipa file
+- End users install your application but cannot access the framework separately
+- ✅ This is allowed
+
+**Example 3: Multiple Projects**
+- You use in8 to build multiple different applications
+- Each application includes its own copy of the framework (embedded)
+- You distribute each application independently
+- ✅ This is allowed
+
+### ❌ PROHIBITED USES
+
+**Example 1: SDK Redistribution**
+- You create a game development SDK for others to use
+- Your SDK includes the in8.xcframework for convenience
+- Other developers download your SDK and get access to in8
+- ❌ This is NOT allowed
+
+**Example 2: Public Repository**
+- You put your project on GitHub with the in8.xcframework included
+- Others can clone your repository and get the framework
+- The framework becomes publicly accessible
+- ❌ This is NOT allowed
+
+**Example 3: Framework-as-a-Service**
+- You create a platform where others can use in8 remotely
+- You expose in8's functionality as an API or service
+- Other developers use in8 without obtaining it directly from the Licensor
+- ❌ This is NOT allowed
+
+**Example 4: Extracted Library**
+- You distribute the in8.xcframework as a separate download
+- You make it available on a CDN or package manager
+- Developers can use it independently of your application
+- ❌ This is NOT allowed
+
+---
+
+## SUMMARY FOR DEVELOPERS
+
+**In Plain English:**
+- ✅ Build anything you want with in8
+- ✅ Sell or give away your apps that use in8
+- ✅ Bundle in8 inside your apps when you distribute them
+- ❌ Don't share the in8 framework itself with others
+- ❌ Don't put in8 in public repos or make it downloadable separately
+- ❌ Don't include in8 in SDKs or tools for other developers
+
+**Think of it like Unity or Unreal Engine:**
+- You can make and sell games with Unity
+- You can't redistribute the Unity engine itself
+- Same concept applies to in8
+
+---
+
+**Copyright (c) 2026 ioMetics LC. All Rights Reserved.**
+
+Last Updated: January 31 2026

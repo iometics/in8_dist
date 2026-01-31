@@ -1,0 +1,76 @@
+# License
+
+## Documentation License
+
+The documentation, guides, and example code in this repository are licensed under the MIT License:
+
+MIT License
+
+Copyright (c) 2026 [Your Name/Organization]
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this documentation and associated example code files (the "Documentation"), 
+to deal in the Documentation without restriction, including without limitation 
+the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or 
+sell copies of the Documentation, and to permit persons to whom the Documentation 
+is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Documentation.
+
+THE DOCUMENTATION IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE DOCUMENTATION OR THE USE OR OTHER DEALINGS IN THE
+DOCUMENTATION.
+
+---
+
+## in8 Framework License
+
+**IMPORTANT:** The in8 library, in8.xcframework, and all associated binary files 
+are NOT covered by the above MIT License.
+
+### Restrictions on in8 Framework Distribution
+
+1. **No Redistribution**: You may NOT redistribute, share, or make available the 
+   in8 library or in8.xcframework in any form without explicit written permission 
+   from [Your Name/Organization].
+
+2. **Development Use**: You may use the in8 framework to develop applications for 
+   your own use or commercial distribution.
+
+3. **Applications Built With in8**: Applications you build using the in8 framework 
+   may be distributed freely, but you may NOT distribute the in8 framework itself 
+   as a standalone library or SDK.
+
+4. **Obtaining the in8 Framework**: To obtain the in8 framework for development:
+   - Contact [your contact information]
+   - Visit [your website/distribution page]
+   - [Other method of obtaining framework]
+
+### What This Means
+
+✅ **You CAN:**
+- Use this documentation to learn how to integrate the in8 framework
+- Build and distribute applications using the in8 framework
+- Modify the example code for your own projects
+- Share this documentation with others
+
+❌ **You CANNOT:**
+- Redistribute the in8.xcframework file
+- Include the in8 library in your own SDK or library
+- Share the in8 framework binaries publicly
+- Bundle the in8 framework with other tools for distribution
+
+---
+
+## Summary
+
+This repository provides free documentation for the in8 framework. You are free 
+to use, modify, and share this documentation. However, the in8 framework itself 
+is proprietary software that requires permission to redistribute. 
+
+If you need access to the in8 framework, please contact [Your Contact Information].
