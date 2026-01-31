@@ -1,0 +1,281 @@
+================================================================================
+                  in8 FRAMEWORK DISTRIBUTION CHECKLIST
+================================================================================
+
+This document lists all files that should be included when distributing the
+in8 Framework to developers.
+
+================================================================================
+REQUIRED FILES
+================================================================================
+
+Framework Binaries:
+-------------------
+[ ] in8.xcframework/                  (iOS, macOS, iPadOS support)
+    [ ] ios-arm64/                    (iOS device)
+    [ ] ios-arm64_x86_64-simulator/   (iOS simulator)
+    [ ] macos-arm64_x86_64/           (macOS universal)
+
+[ ] Android libraries (if applicable):
+    [ ] arm64-v8a/libin8.so
+    [ ] armeabi-v7a/libin8.so
+    [ ] x86_64/libin8.so
+    [ ] x86/libin8.so
+
+[ ] Linux libraries (if applicable):
+    [ ] libin8.so (x86_64)
+
+Legal & License Files:
+----------------------
+[ ] in8_FRAMEWORK_LICENSE.txt         (REQUIRED - Full legal agreement)
+[ ] LICENSE_SUMMARY.txt               (REQUIRED - Quick reference)
+[ ] FRAMEWORK_README.txt              (REQUIRED - Getting started guide)
+[ ] CHANGELOG.txt                     (REQUIRED - Version history)
+
+================================================================================
+OPTIONAL BUT RECOMMENDED
+================================================================================
+
+Documentation:
+--------------
+[ ] API_REFERENCE.txt or .pdf         (Function documentation)
+[ ] INTEGRATION_GUIDE.txt             (Quick integration steps)
+[ ] TROUBLESHOOTING.txt               (Common issues and solutions)
+
+Examples:
+---------
+[ ] examples/
+    [ ] minimal-ios/                  (Minimal iOS example)
+    [ ] minimal-macos/                (Minimal macOS example)
+    [ ] minimal-android/              (Minimal Android example)
+
+Links/References:
+-----------------
+[ ] LINKS.txt                         (URLs to documentation, support, etc.)
+
+================================================================================
+DO NOT INCLUDE
+================================================================================
+
+Do NOT include in the distribution:
+-----------------------------------
+[ ] Source code (unless specifically licensing source)
+[ ] Internal build scripts
+[ ] Development tools
+[ ] Test suites
+[ ] Your internal notes or documentation
+[ ] Git repositories (.git folders)
+[ ] IDE-specific files (.xcworkspace, .idea, etc.)
+
+================================================================================
+PACKAGE STRUCTURE
+================================================================================
+
+Recommended folder structure for distribution:
+
+in8-framework-v1.0.0/
+├── README.txt                        ← Start here
+├── in8_FRAMEWORK_LICENSE.txt         ← Legal terms
+├── LICENSE_SUMMARY.txt               ← Quick reference
+├── CHANGELOG.txt                     ← Version history
+│
+├── Frameworks/                       ← The actual framework
+│   ├── in8.xcframework/              ← Apple platforms
+│   ├── android/                      ← Android libraries (optional)
+│   │   ├── arm64-v8a/libin8.so
+│   │   ├── armeabi-v7a/libin8.so
+│   │   └── ...
+│   └── linux/                        ← Linux libraries (optional)
+│       └── libin8.so
+│
+└── docs/                             ← Additional docs (optional)
+    ├── API_REFERENCE.txt
+    ├── INTEGRATION_GUIDE.txt
+    └── TROUBLESHOOTING.txt
+
+================================================================================
+DISTRIBUTION METHODS
+================================================================================
+
+How to provide the framework to developers:
+
+METHOD 1: Direct Download (Recommended for individuals)
+--------------------------------------------------------
+- Create a .zip or .tar.gz archive
+- Upload to secure hosting
+- Provide download link to authorized developers
+- Track who downloads (optional)
+
+METHOD 2: Email Distribution
+-----------------------------
+- For small-scale distribution
+- Send directly to authorized developers
+- Keep record of recipients
+
+METHOD 3: Private Repository/Portal
+------------------------------------
+- Set up authenticated download portal
+- Require login/authorization
+- Good for tracking and managing access
+- Can revoke access if needed
+
+METHOD 4: License Key System
+-----------------------------
+- Provide framework with license keys
+- Validate license keys in your framework (advanced)
+- Control who can use which versions
+
+================================================================================
+PRE-DISTRIBUTION CHECKLIST
+================================================================================
+
+Before distributing a new version:
+
+Framework Build:
+[ ] All platform variants built successfully
+[ ] Version numbers updated in all files
+[ ] Code signing completed (if applicable)
+[ ] Framework tested on all platforms
+
+Documentation:
+[ ] README.txt updated with correct version
+[ ] CHANGELOG.txt includes all changes for this version
+[ ] License files reviewed and up-to-date
+[ ] Contact information verified
+
+Legal:
+[ ] License agreement reviewed (if changes)
+[ ] Copyright year updated
+[ ] All proprietary notices in place
+
+Testing:
+[ ] Clean build from distribution package verified
+[ ] Sample integration tested on each platform
+[ ] No extra files accidentally included
+[ ] File permissions correct
+
+Communication:
+[ ] Release notes prepared
+[ ] Support channels ready for questions
+[ ] Known issues documented
+
+================================================================================
+VERSIONING CHECKLIST
+================================================================================
+
+For each new version, update:
+
+[ ] Framework binary version metadata
+[ ] CHANGELOG.txt with new version entry
+[ ] FRAMEWORK_README.txt version number
+[ ] Package filename (e.g., in8-framework-v1.1.0.zip)
+[ ] Any version-specific documentation
+
+================================================================================
+SECURITY CONSIDERATIONS
+================================================================================
+
+When distributing:
+------------------
+[ ] Use secure hosting (HTTPS)
+[ ] Consider checksum/hash files (SHA256)
+[ ] Sign the package if possible
+[ ] Use encrypted transmission for sensitive distributions
+[ ] Keep records of who received which version
+[ ] Have a revocation plan if needed
+
+Example Checksum File (SHA256SUMS.txt):
+---------------------------------------
+abc123... in8.xcframework.zip
+def456... in8-framework-v1.0.0.tar.gz
+
+================================================================================
+SUPPORT PREPARATION
+================================================================================
+
+Before distribution, ensure you have:
+-------------------------------------
+[ ] Support email/channel set up
+[ ] FAQ document ready
+[ ] Known issues documented
+[ ] Response templates for common questions
+[ ] Bug reporting process defined
+[ ] Version compatibility matrix prepared
+
+================================================================================
+TRACKING (OPTIONAL)
+================================================================================
+
+Consider tracking:
+------------------
+[ ] Who received the framework
+[ ] Which version they received
+[ ] Date of distribution
+[ ] License type (if applicable)
+[ ] Contact information
+[ ] Expiration dates (if applicable)
+
+This helps with:
+- Support (knowing what version users have)
+- Update notifications
+- License management
+- Usage analytics
+
+================================================================================
+POST-DISTRIBUTION
+================================================================================
+
+After distributing:
+-------------------
+[ ] Monitor for support requests
+[ ] Track any reported issues
+[ ] Prepare for next version
+[ ] Update documentation based on feedback
+[ ] Consider user feedback for improvements
+
+================================================================================
+SAMPLE DISTRIBUTION EMAIL
+================================================================================
+
+Subject: in8 Framework v[VERSION] - Download Link
+
+Dear [Developer Name],
+
+Thank you for your interest in the in8 Framework!
+
+Download Link: [secure download URL]
+Version: [version number]
+Release Date: [date]
+SHA256: [checksum if applicable]
+
+Package Contents:
+- in8.xcframework for iOS/macOS/iPadOS
+- Full license agreement
+- README and documentation
+- Changelog
+
+Getting Started:
+1. Download and extract the package
+2. Read FRAMEWORK_README.txt
+3. Review the license in in8_FRAMEWORK_LICENSE.txt
+4. Follow integration guides at: [documentation URL]
+
+Support:
+- Documentation: [URL]
+- Email: [support email]
+- Known Issues: See CHANGELOG.txt
+
+Important: This framework is licensed software. Please review the license 
+agreement before use. You may not redistribute the framework to others.
+
+Thank you for using in8!
+
+[Your Name/Organization]
+
+================================================================================
+
+Questions about distribution? Contact: [your email]
+
+Last Updated: January 31, 2026
+
+================================================================================

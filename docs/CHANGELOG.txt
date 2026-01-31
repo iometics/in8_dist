@@ -1,0 +1,124 @@
+================================================================================
+                        in8 FRAMEWORK CHANGELOG
+================================================================================
+
+All notable changes to the in8 Framework will be documented in this file.
+
+Format: Version Number - Release Date
+Each version includes: Added, Changed, Fixed, Removed sections as applicable
+
+================================================================================
+
+Version 1.0.0 - January 31, 2026
+--------------------------------
+
+INITIAL RELEASE
+
+Added:
+- Complete SDL3-based game framework
+- Cross-platform support: iOS, macOS, iPadOS, Android, Linux
+- in8.xcframework for Apple platforms
+- Native libraries for Android and Linux
+- Core game loop and event handling
+- Graphics rendering support
+- Input handling (touch, mouse, keyboard, gamepad)
+- Audio playback and management
+- Resource loading and management
+- Basic documentation and examples
+
+Platform Support:
+- iOS 13.0+
+- macOS 11.0+
+- Android API 21+ (Android 5.0+)
+- Linux (x86_64)
+
+Known Limitations:
+- [List any known issues or limitations]
+
+================================================================================
+
+[Template for future versions - delete this section when publishing]
+
+Version X.X.X - [Date]
+----------------------
+
+Added:
+- [New features]
+
+Changed:
+- [Changes to existing functionality]
+
+Fixed:
+- [Bug fixes]
+
+Removed:
+- [Removed features]
+
+Deprecated:
+- [Soon-to-be removed features]
+
+Performance:
+- [Performance improvements]
+
+Platform Support:
+- [Platform-specific notes]
+
+Breaking Changes:
+- [Changes that break backward compatibility]
+
+Migration Notes:
+- [How to update from previous version]
+
+Known Issues:
+- [Current known issues]
+
+================================================================================
+
+VERSIONING SCHEME
+-----------------
+
+We use Semantic Versioning (SemVer): MAJOR.MINOR.PATCH
+
+MAJOR: Incompatible API changes
+MINOR: New functionality, backward compatible
+PATCH: Backward compatible bug fixes
+
+Examples:
+1.0.0 → Initial release
+1.1.0 → New features added, compatible with 1.0.0
+1.1.1 → Bug fixes, compatible with 1.1.0
+2.0.0 → Breaking changes, not compatible with 1.x.x
+
+================================================================================
+
+GETTING UPDATES
+---------------
+
+To obtain framework updates:
+- Contact: [your email]
+- Website: [your website]
+- Check announcements at: [announcement location]
+
+Updates are provided at our discretion and may include bug fixes, performance 
+improvements, new features, and platform support updates.
+
+================================================================================
+
+RELEASE NOTES LEGEND
+--------------------
+
+[NEW]      - New feature or capability
+[CHANGED]  - Change to existing feature
+[FIXED]    - Bug fix
+[REMOVED]  - Removed feature
+[SECURITY] - Security-related fix
+[BREAKING] - Breaking change, requires code updates
+[PLATFORM] - Platform-specific change
+
+================================================================================
+
+For questions about specific versions or features:
+Email: [your support email]
+Website: [your website]
+
+================================================================================

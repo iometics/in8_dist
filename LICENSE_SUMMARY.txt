@@ -1,0 +1,112 @@
+================================================================================
+                    in8 FRAMEWORK - LICENSE SUMMARY
+================================================================================
+
+This is a human-readable summary of the in8 Framework License Agreement.
+For complete legal terms, see in8_FRAMEWORK_LICENSE.txt
+
+--------------------------------------------------------------------------------
+YOU ARE FREE TO:
+--------------------------------------------------------------------------------
+
+✓ Use the Framework to build Applications (games, apps, tools, etc.)
+✓ Build unlimited Applications with the Framework
+✓ Distribute your Applications commercially or for free
+✓ Charge for Applications that use the Framework
+✓ Release on any platform (App Store, Steam, Google Play, etc.)
+✓ Keep full ownership of your Applications
+✓ Use the Framework in closed-source or open-source projects
+
+--------------------------------------------------------------------------------
+YOU MUST NOT:
+--------------------------------------------------------------------------------
+
+✗ Redistribute the Framework separately from your Applications
+✗ Share the Framework with other developers
+✗ Put the Framework in public repositories (GitHub, etc.)
+✗ Include the Framework in SDKs or libraries for others
+✗ Reverse engineer or decompile the Framework
+✗ Remove copyright notices from the Framework
+
+--------------------------------------------------------------------------------
+HOW TO DISTRIBUTE YOUR APPLICATIONS:
+--------------------------------------------------------------------------------
+
+When you distribute Applications built with in8:
+
+1. Embed the Framework inside your Application bundle
+2. Your Application must provide substantial functionality
+3. End users should not be able to extract the Framework separately
+4. The Framework runs as part of your Application
+
+Example: If you build a game, the Framework is bundled inside your .app, 
+.ipa, or .apk file. Users install your game normally and never see the 
+Framework separately.
+
+--------------------------------------------------------------------------------
+IMPORTANT POINTS:
+--------------------------------------------------------------------------------
+
+• The Framework is licensed, not sold - you don't own it
+• No warranty - the Framework is provided "AS IS"
+• Limited liability - use at your own risk
+• You own your Applications (subject to our rights in the Framework)
+• This license can be terminated if you violate the terms
+
+--------------------------------------------------------------------------------
+SIMPLE ANALOGY:
+--------------------------------------------------------------------------------
+
+Think of in8 like Unity or Unreal Engine:
+→ You can make and sell games/apps with it
+→ You can't give the engine itself to other developers
+→ Your games can include the engine when you distribute them
+
+--------------------------------------------------------------------------------
+NEED SPECIAL LICENSING?
+--------------------------------------------------------------------------------
+
+Contact us for:
+• Team/Enterprise licenses
+• Educational institution licenses  
+• OEM/Bundling arrangements
+• Source code licenses
+• Redistribution rights
+
+Email: [your email]
+Website: [your website]
+
+--------------------------------------------------------------------------------
+QUICK DECISION TREE:
+--------------------------------------------------------------------------------
+
+Q: Can I use in8 to make a commercial game?
+A: YES - Build and sell as many games as you want
+
+Q: Can I put my game on GitHub with the in8.xcframework included?
+A: NO - Share your code, but not the Framework itself
+
+Q: Can I distribute my game on the App Store?
+A: YES - The Framework can be bundled in your app
+
+Q: Can I give the in8.xcframework to my teammate?
+A: NO - Each developer should obtain it separately (contact us for team 
+   licensing)
+
+Q: Can I include in8 in my game engine for others to use?
+A: NO - The Framework is for building end-user Applications only
+
+Q: What if I accidentally violated the license?
+A: Contact us immediately - we're reasonable people
+
+--------------------------------------------------------------------------------
+
+By using the in8 Framework, you agree to the full license terms in 
+in8_FRAMEWORK_LICENSE.txt
+
+Thank you for using in8!
+
+Copyright (c) 2026 [Your Name/Organization]
+All Rights Reserved.
+
+================================================================================

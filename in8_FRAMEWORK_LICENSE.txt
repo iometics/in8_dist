@@ -1,0 +1,333 @@
+================================================================================
+                    in8 FRAMEWORK LICENSE AGREEMENT
+================================================================================
+
+Version 1.0
+Last Updated: January 31, 2026
+
+PLEASE READ THIS LICENSE CAREFULLY BEFORE USING THE in8 FRAMEWORK.
+
+BY USING, INSTALLING, OR DISTRIBUTING THE in8 FRAMEWORK, YOU AGREE TO BE 
+BOUND BY THE TERMS OF THIS LICENSE AGREEMENT.
+
+================================================================================
+1. DEFINITIONS
+================================================================================
+
+"Framework" means the in8 software framework, including but not limited to:
+  - in8.xcframework (iOS, macOS, iPadOS variants)
+  - in8 libraries for Linux, Android, and other platforms
+  - Associated header files, documentation, and examples
+  - Any updates or modifications provided by Licensor
+
+"Licensor" means [Your Name/Organization], the owner and distributor of the 
+in8 Framework.
+
+"You" or "Licensee" means the individual or entity that has obtained the 
+Framework.
+
+"Application" means any software product you create using the Framework.
+
+"Distribute" means to provide, make available, or transfer copies by any 
+means including download, physical media, or network transmission.
+
+"End User" means a person who uses your Application.
+
+================================================================================
+2. GRANT OF LICENSE
+================================================================================
+
+Subject to your compliance with this Agreement, Licensor grants you a 
+non-exclusive, worldwide, royalty-free license to:
+
+2.1 DEVELOPMENT RIGHTS
+    - Install and use the Framework on development computers
+    - Link your Applications against the Framework
+    - Use the Framework to create, develop, test, and debug Applications
+    - Use the Framework for both commercial and non-commercial Applications
+    - Create unlimited Applications using the Framework
+
+2.2 DISTRIBUTION RIGHTS
+    - Distribute the Framework as an integrated part of your Applications
+    - Distribute Applications containing the Framework to End Users
+    - Distribute Applications through any distribution channel (App Store, 
+      Steam, direct download, physical media, etc.)
+    - Charge for Applications that include the Framework
+    - Distribute Applications under your own license terms
+
+2.3 RUNTIME DISTRIBUTION
+    - Bundle the Framework within your Application's executable, package, 
+      or installation
+    - Deploy the Framework to End User devices as part of your Application
+    - Include the Framework in Application updates
+
+================================================================================
+3. RESTRICTIONS
+================================================================================
+
+You may NOT:
+
+3.1 REDISTRIBUTION PROHIBITION
+    ✗ Distribute, sublicense, lease, rent, or lend the Framework as a 
+      standalone product
+    ✗ Make the Framework available for download separately from your 
+      Applications
+    ✗ Upload the Framework to public repositories (GitHub, GitLab, etc.)
+    ✗ Share the Framework through file-sharing services, CDNs, or torrents
+    ✗ Include the Framework in SDK distributions for other developers
+    ✗ Provide the Framework as part of a library, engine, or middleware 
+      package
+    ✗ Bundle the Framework with development tools for others to use
+
+3.2 MODIFICATION AND REVERSE ENGINEERING
+    ✗ Reverse engineer, decompile, or disassemble the Framework (except 
+      where prohibited by applicable law)
+    ✗ Attempt to derive source code from the Framework binaries
+    ✗ Modify, adapt, translate, or create derivative works of the Framework
+    ✗ Remove, obscure, or alter any copyright notices or proprietary labels
+
+3.3 COMPETITIVE USE
+    ✗ Use the Framework to create a competing game engine or framework
+    ✗ Extract portions of the Framework for use in other frameworks
+    ✗ Market the Framework's capabilities as your own technology
+
+3.4 HARMFUL USE
+    ✗ Use the Framework to create malware, viruses, or harmful software
+    ✗ Use the Framework for illegal purposes
+    ✗ Use the Framework in violation of export control laws
+
+================================================================================
+4. DISTRIBUTION REQUIREMENTS FOR YOUR APPLICATIONS
+================================================================================
+
+When distributing Applications that include the Framework, you must ensure:
+
+4.1 EMBEDDING REQUIREMENT
+    - The Framework must be embedded within your Application bundle/package
+    - The Framework must not be separately accessible to End Users
+    - The Framework must not be exposed as a standalone library
+
+4.2 FUNCTIONAL REQUIREMENT
+    - Your Application must provide substantial functionality beyond the 
+      Framework
+    - The primary purpose of your Application cannot be to redistribute 
+      the Framework
+    - Your Application must be a genuine end-user product
+
+4.3 ATTRIBUTION (OPTIONAL BUT APPRECIATED)
+    You may include attribution such as:
+    - "Built with in8 Framework" in credits or about screens
+    - Link to [your website] if desired
+    (This is not required but appreciated)
+
+================================================================================
+5. OWNERSHIP AND INTELLECTUAL PROPERTY
+================================================================================
+
+5.1 FRAMEWORK OWNERSHIP
+    - The Framework is licensed, not sold
+    - Licensor retains all right, title, and interest in the Framework
+    - All intellectual property rights in the Framework remain with Licensor
+    - This license does not grant you any patents, copyrights, or trademarks
+
+5.2 YOUR APPLICATIONS
+    - You retain all rights to your Applications
+    - You own the code, assets, and creative works in your Applications
+    - Your ownership is subject to Licensor's rights in the Framework
+
+5.3 TRADEMARKS
+    - "in8" and related marks are trademarks of Licensor
+    - You may not use these trademarks without permission except to 
+      identify your use of the Framework
+
+================================================================================
+6. UPDATES AND SUPPORT
+================================================================================
+
+6.1 UPDATES
+    - Licensor may provide updates, patches, or new versions
+    - Updates are provided at Licensor's discretion
+    - This license applies to all updates unless accompanied by new terms
+
+6.2 SUPPORT
+    - Licensor is not obligated to provide technical support
+    - Any support provided is at Licensor's discretion
+    - Community forums or documentation may be available
+
+================================================================================
+7. WARRANTIES AND DISCLAIMERS
+================================================================================
+
+7.1 LIMITED WARRANTY
+    The Framework is provided "AS IS" without warranty of any kind.
+
+7.2 DISCLAIMER OF WARRANTIES
+    TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, LICENSOR DISCLAIMS 
+    ALL WARRANTIES, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO:
+    
+    - WARRANTIES OF MERCHANTABILITY
+    - FITNESS FOR A PARTICULAR PURPOSE
+    - NON-INFRINGEMENT
+    - TITLE
+    - QUIET ENJOYMENT
+    - ACCURACY
+    - INTEGRATION
+    - SYSTEM INTEGRATION
+    - UNINTERRUPTED OR ERROR-FREE OPERATION
+
+7.3 NO GUARANTEE
+    Licensor does not warrant that:
+    - The Framework will meet your requirements
+    - The Framework will work with all platforms or configurations
+    - The Framework is free from bugs or errors
+    - Defects will be corrected
+
+================================================================================
+8. LIMITATION OF LIABILITY
+================================================================================
+
+TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW:
+
+8.1 NO LIABILITY FOR DAMAGES
+    IN NO EVENT SHALL LICENSOR BE LIABLE FOR ANY DIRECT, INDIRECT, 
+    INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES, INCLUDING 
+    BUT NOT LIMITED TO:
+    
+    - Loss of profits or revenue
+    - Loss of data
+    - Loss of business opportunities
+    - Business interruption
+    - Cost of substitute goods or services
+    - Reputational harm
+    
+    EVEN IF LICENSOR HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.
+
+8.2 MAXIMUM LIABILITY
+    In jurisdictions that do not allow the exclusion or limitation of 
+    liability, Licensor's total liability shall not exceed the amount you 
+    paid for the Framework (which may be zero).
+
+8.3 ESSENTIAL PURPOSE
+    You acknowledge that this limitation of liability is an essential 
+    element of this Agreement and that Licensor would not provide the 
+    Framework without these limitations.
+
+================================================================================
+9. TERMINATION
+================================================================================
+
+9.1 AUTOMATIC TERMINATION
+    This license automatically terminates if you:
+    - Breach any term of this Agreement
+    - Fail to comply with restrictions in Section 3
+    - Use the Framework in prohibited ways
+
+9.2 EFFECT OF TERMINATION
+    Upon termination:
+    - All rights granted to you under this Agreement immediately cease
+    - You must stop using the Framework
+    - You must destroy all copies of the Framework in your possession
+    - Your distributed Applications may continue to operate (Framework 
+      remains embedded in already-distributed copies)
+
+9.3 SURVIVAL
+    Sections 3, 5, 7, 8, 9, 10, and 11 survive termination.
+
+================================================================================
+10. COMPLIANCE AND AUDIT
+================================================================================
+
+10.1 COMPLIANCE OBLIGATION
+     You agree to comply with all applicable laws and regulations in your 
+     use of the Framework.
+
+10.2 AUDIT RIGHTS
+     Licensor reserves the right to audit your use of the Framework upon 
+     reasonable notice to ensure compliance with this Agreement.
+
+10.3 EXPORT COMPLIANCE
+     You agree to comply with all applicable export and import laws.
+
+================================================================================
+11. GENERAL PROVISIONS
+================================================================================
+
+11.1 ENTIRE AGREEMENT
+     This Agreement constitutes the entire agreement between you and 
+     Licensor regarding the Framework.
+
+11.2 MODIFICATIONS
+     Licensor may modify this Agreement for future versions of the 
+     Framework. Your continued use constitutes acceptance of modifications.
+
+11.3 SEVERABILITY
+     If any provision is found invalid or unenforceable, the remaining 
+     provisions remain in full force.
+
+11.4 WAIVER
+     Failure to enforce any provision does not constitute a waiver of 
+     future enforcement.
+
+11.5 GOVERNING LAW
+     This Agreement is governed by the laws of [Your Jurisdiction], 
+     excluding conflict of law provisions.
+
+11.6 DISPUTE RESOLUTION
+     Any disputes shall be resolved in the courts of [Your Jurisdiction].
+
+11.7 NO THIRD-PARTY BENEFICIARIES
+     This Agreement does not create rights for any third parties.
+
+11.8 ASSIGNMENT
+     You may not assign this license without Licensor's written consent.
+     Licensor may assign this Agreement at any time.
+
+11.9 CONTACT FOR LICENSING QUESTIONS
+     For questions about this license or to request special licensing 
+     arrangements:
+     
+     Email: [your email address]
+     Website: [your website]
+     Address: [your address if applicable]
+
+================================================================================
+12. ACKNOWLEDGMENT
+================================================================================
+
+BY USING THE in8 FRAMEWORK, YOU ACKNOWLEDGE THAT:
+
+✓ You have read and understand this Agreement
+✓ You agree to be bound by its terms
+✓ You have the authority to enter into this Agreement
+✓ You understand the restrictions on redistribution
+✓ You accept the Framework "AS IS" without warranty
+
+================================================================================
+13. SPECIAL LICENSE ARRANGEMENTS
+================================================================================
+
+For special licensing needs, contact Licensor:
+
+- EDUCATIONAL INSTITUTIONS: May be eligible for special terms
+- ENTERPRISE LICENSING: Site licenses and team licenses available
+- OEM/BUNDLING: Contact for custom arrangements
+- SOURCE CODE LICENSE: May be available separately
+- REDISTRIBUTION RIGHTS: May be granted with written permission
+
+Contact: [your contact information]
+
+================================================================================
+
+                           END OF LICENSE AGREEMENT
+
+================================================================================
+
+Copyright (c) 2026 ioMetics LC
+All Rights Reserved.
+
+The in8 Framework is proprietary software.
+Unauthorized copying, redistribution, or use is strictly prohibited.
+
+For more information, visit: ioMetics.com
+
+================================================================================
